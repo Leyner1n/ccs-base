@@ -1,0 +1,87 @@
+/*
+
+html состоит из html-тегов
+css состоит из css-правил
+
+css-правило
+
+селектор {
+    свойство-1: значение-1;
+    свойство-2: значение-2;
+}
+
+виды простых css-селекторов:
+1. по тегу (по элементу)
+body {...}
+
+2. по классу
+.example {...}
+
+3. по идентифекатору
+#example {...}
+
+4. универсальный селектор
+* {...}
+===========================
+
+виды комбинированных ccs-селекторов:
+1. контекстный
+ul li {...}
+
+2. дочерний
+.box > p {...}
+
+3. сестринский-1
+h4 + h5 {...}
+
+4. сестринский-2
+h4 ~ h5 {...}
+*/
+body {
+    /*color: mediumvioletred;*/
+}
+
+h1 {
+    color: firebrick;
+}
+
+pre {
+    color: mediumvioletred;
+}
+
+.test-1 {
+    color: rebeccapurple;
+}
+
+h2 {
+    color: crimson;
+}
+
+.test-3 {
+    color: firebrick;
+}
+
+#test-2 {
+    color: blue;
+}
+
+* {
+    /*border: 1px solid black;*/
+}
+
+.list-1 li {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.list-1 li ul li {
+    color: orange;
+}
+
+.box > p {
+    color: deeppink;
+}
+
+h4 ~ h5 {
+    border: 1px dashed;
+}
